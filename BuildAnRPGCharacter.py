@@ -62,15 +62,19 @@ def create_character(name, strength, intelligence, charisma):
 
     # This variable consists of the formula that displays the amount of full_dots and
     # empty_dot's according to the input parameters.
+    
     # strength * full_dot - since full_dot is one string,
     # for example, it is the same as 4 x 1 if strength was 4
+    
     # empty_dot * (10 - strength) - the number 10 is there because
     # thats the amount of dots that should be displayed in total.
     # the subtraction within the parenthesis takes place
     # first, for example, 10 - 4 if strength was 4, with the answer being 6.
     # Then the multiplication formula empty_dot * 6 is the same as the full_dot multiplication
     # which finds out how many empty_dots are left, meaning that empty_dot * 6
-    # is the same as 1 x 6. Adding them both together leaves with
+    # is the same as 1 x 6. 
+    
+    # Adding them both together leaves with
     # 4 full_dots and 6 empty_dots.
     # This formula is then repeated for intelligence and charisma
     formulaStrength = strength * full_dot + empty_dot * (10 - strength)
