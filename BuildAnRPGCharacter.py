@@ -60,7 +60,8 @@ def create_character(name, strength, intelligence, charisma):
     if strength + intelligence + charisma != 7:
         return 'The character should start with 7 points'
 
-    # This variable consists of the formula that stores the dots
+    # This variable consists of the formula that displays the amount of full_dots and
+    # empty_dot's according to the input parameters.
     # strength * full_dot - since full_dot is one string,
     # for example, it is the same as 4 x 1 if strength was 4
     # empty_dot * (10 - strength) - the number 10 is there because
