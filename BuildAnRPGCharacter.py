@@ -25,7 +25,7 @@ def create_character(name, strength, intelligence, charisma):
     if " " in name:
         return 'The character name should not contain spaces'
 
-    # I have created a variable that has a list of the other
+    # I have created a variable that has an array of the other
     # input parameters representing the stats
     stats = [strength, intelligence, charisma]
 
